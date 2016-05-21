@@ -33,7 +33,6 @@ class Autoloader
         $className = str_replace('\\', DIRECTORY_SEPARATOR, $className);
 
         $file = ROOT_PATH . $className. '.php';
-
         if(file_exists($file))
         {
             require_once $file;

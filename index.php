@@ -6,11 +6,11 @@
  * Time: 13:30
  */
 
-use autoload\core\DirName;
+//use autoload\core\DirName;
 
 
 require_once 'config/bootstrap.php';
 
-$dir = new DirName();
+$dir = new \autoload\core\DirName();
 $dir->dir();
 echo $dir->dir;
